@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mcqGenerator
+Version: 0.0.0
+Summary: mcqGenerator
+Home-page: https://github.com/paritosh0707/mcqGenerator
+Author: paritosh0707
+Author-email: paritoshsharma0707@gmail.com
+Project-URL: Bug Tracker, https://github.com/paritosh0707/mcqGenerator/issues
+Requires-Dist: openai
+Requires-Dist: langchain
+Requires-Dist: streamlit
+Requires-Dist: python-dotenv
+Requires-Dist: pyPDF2
