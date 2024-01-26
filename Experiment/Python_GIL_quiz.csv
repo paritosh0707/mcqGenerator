@@ -1,0 +1,6 @@
+MCQ,Choices,Correct
+What is the purpose of the Global Interpreter Lock (GIL) in Python?,a: To allow multiple threads to execute in parallel | b: To prevent race conditions in memory management | c: To improve the performance of CPU-bound programs | d: To enable garbage collection in Python,b
+Which type of programs are most affected by the GIL?,a: I/O-bound programs | b: CPU-bound programs | c: Single-threaded programs | d: Multi-threaded programs,b
+Why hasn't the GIL been removed from Python?,a: It would cause backward compatibility issues | b: It is a necessary feature for C extensions | c: It is difficult to find an alternative solution | d: It provides performance benefits for single-threaded programs,a
+What is one approach to mitigate the impact of the GIL?,a: Using multi-processing instead of multi-threading | b: Using alternative Python interpreters | c: Waiting for the GIL to be removed in future versions of Python | d: Optimizing the code to minimize the use of threads,a
+What is the main drawback of using multi-processing instead of multi-threading?,a: Increased overhead and resource usage | b: Incompatibility with C extensions | c: Limited scalability | d: Decreased performance for I/O-bound programs,a
