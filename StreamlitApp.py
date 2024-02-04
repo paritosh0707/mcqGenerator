@@ -57,6 +57,7 @@ with st.form("user input"):
                         table_data = get_table_data(quiz)
                         if table_data is not None:
                             df = pd.DataFrame(table_data)
+                            # df.to_csv('result_mcq.csv').encode("utf-8")
                             df.index = df.index+1
                             st.table(df)
 
@@ -65,3 +66,11 @@ with st.form("user input"):
                             st.error("Error in the table")
                 else:
                     st.write(response)
+# if(button):
+#     download_data = pd.read_csv('result_mcq.csv')
+#     st.download_button(
+#                                     label="Download data as CSV",
+#                                     data=download_data,
+#                                     file_name='mcq.csv',
+#                                     mime='text/csv',
+#                                 )
